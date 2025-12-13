@@ -72,8 +72,9 @@ const Manager = () => {
 
     const savePassword = () => {
         if (form.site && form.username && form.password) {
-            setPasswordArray([...passwordArray, { ...form, id: uuidv4() }])
-            localStorage.setItem("passwords", JSON.stringify([...passwordArray, { ...form, id: uuidv4() }]))
+            const newPassword = { ...form, id: uuidv4() }
+            setPasswordArray([...passwordArray, newPassword])
+            localStorage.setItem("passwords", JSON.stringify([...passwordArray, newPassword]))
             toast('password saved...',{
             position: "top-right",
             autoClose: 5000,
@@ -84,6 +85,7 @@ const Manager = () => {
             progress: undefined,
             theme: "light"
         });
+        setform({ site: "", username: "", password: "" })
         }
     }
 
