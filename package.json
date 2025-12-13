@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://henry-150.github.io/password-manager",
+  "homepage": "https://henry-150.github.io/password-manager-LS",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
