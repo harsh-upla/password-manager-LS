@@ -1,4 +1,4 @@
-**Live Demo:** [https://harsh-upla.github.io/password-manager-LS/](https://henry-150.github.io/password-manager-LS/)
+**Live Demo:** [https://harsh-upla.github.io/password-manager-LS/](https://harsh-upla.github.io/password-manager-LS/)
 
 # PassOP - Secure Password Manager
 
